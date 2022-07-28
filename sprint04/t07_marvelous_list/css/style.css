@@ -1,0 +1,65 @@
+body{
+    font-size: 18px;
+}
+  h1 {
+    color:rgb(18, 216, 216);
+    text-align: center;
+  }
+  .container {
+    background-color: rgb(187, 181, 181);
+    width: 1180px;
+    display: flex;
+    margin: 0px 200px;
+    border-radius: 20px;
+  }
+  .name_container {
+    border-right: 1px solid white;
+    width: 200px;
+    margin: 10px 0px;
+  }
+.name {
+    padding: 10px 0px;
+    margin: 10px;
+    text-align: center;
+}
+#active {
+    border-left:  4px solid rgb(57, 142, 168);
+}
+.central_container {
+    margin: 40px 15px 100px 40px;
+    width: 600px;
+    display: flex;
+}
+
+.personages {
+    color: white;
+    display: flex;
+    margin-top: 10px;
+}
+.actor {
+    text-align: center;
+    padding: 8px 10px;
+    margin: 25px 8px;
+    background-color: rgb(5, 120, 197);
+    border-radius: 20px;
+}
+.name:hover {
+    cursor: pointer;
+    background-color: rgba(29, 61, 82, 0.534);
+}
+.description {
+    width: 600px;
+}
+
+
+.title {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.poster {
+    float: right;
+    width: 300px;
+    margin-left: 25px;
+    height: 500px;
+}

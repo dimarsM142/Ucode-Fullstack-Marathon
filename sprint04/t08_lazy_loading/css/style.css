@@ -1,0 +1,32 @@
+body{
+  font-size: 24px;
+  font-weight: bold;
+}
+img {
+    margin-bottom: 10px;
+}
+h1 {
+    text-align: center;
+}
+.ammount {
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+  
+.ammount label {
+    background: rgb(207, 45, 45);
+    position: absolute;
+    padding: 5px;
+    border-radius: 5px;
+    right: 0;
+}
+label.finish {
+    background: rgb(38, 180, 38);
+}
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
