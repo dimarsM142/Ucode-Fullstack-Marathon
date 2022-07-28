@@ -1,0 +1,34 @@
+h1{
+    position: absolute;
+}
+
+#window {
+    display: flex;
+    justify-content: space-around;
+}
+#search {
+    display: flex;
+    width: 100%;
+}
+#entery {
+    width: 100%;
+}
+input {
+    position: relative;
+    height: 2em;
+    color: green;
+    margin-top: 75px;
+}
+input:hover {
+    color: red;
+}
+
+::-webkit-input-placeholder {
+    color: green;
+}
+::-moz-input-placeholder {
+    color: green;
+}
+::-o-input-placeholder {
+    color: green;
+}

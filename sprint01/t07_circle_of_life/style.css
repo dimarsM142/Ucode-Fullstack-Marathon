@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+.movement {
+    background-color: rgb(17, 148, 28);
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    animation: shake 2s ease-out alternate infinite;
+    transition-property: background-color;
+}
+.movement:hover {
+    background-color: red;
+}
+.main {
+    margin: 200px auto;
+}
+@keyframes shake {
+    100% {
+        transform: translateX(calc(100vw - 250px));
+    }
+}

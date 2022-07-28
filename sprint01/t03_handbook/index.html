@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Handbook</title>
+    <meta name="description" content="t03. Handbook" charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Handbook of webpage</h1>
+    <div class="container">
+      <div class="block">
+        <ol>
+          <li>
+            <a href="#html">HTML</a>
+            <ul>
+              <li><a href="#h1">h1</a></li>
+              <li><a href="#p">p</a></li>
+              <li><a href="#br">br</a></li>
+              <li><a href="#form">form</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#css">CSS</a>
+            <ul>
+              <li><a href="#background-color">background-color</a></li>
+              <li><a href="#border">border</a></li>
+              <li><a href="#padding">padding</a></li>
+              <li><a href="#margin">margin</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#protocols">Protocols</a>
+            <ul>
+              <li><a href="#description">Description</a></li>
+              <li><a href="#https">HTTP/HTTPS</a></li>
+              <li><a href="#dns">DNS</a></li>
+              <li><a href="#ip">IP</a></li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <h1 id="html">HTML описание</h1>
+    <div class="container">
+      <div class="block">
+        <p>
+          <span class="block-text" id="h1"> h1 </span>
+          <br> <br>
+          Теги от h1 до h6 используются для определения заголовков HTML 
+          <br> <br>
+          <span> &lt;h1&gt;Заголовок&lt;/h1&gt;</span>
+        </p>
+        <h1 class="example-h1">Заголовок</h1>
+      </div>
+      <div class="block">
+        <p>
+          <span class="block-text" id="p"> p</span> <br />
+          <br />
+          Тег &lt;p&gt определяет абзац. <br> <br>
+          Браузеры автоматически добавляют одну пустую строку до и после каждого <br /><br />
+          &lt;p&gtВот какой-то абзац&lt/p&gt
+          <p>Вот какой-то абзац</p>
+        </p>
+      </div>
+      <div class="block">
+        <p>
+          <span class="block-text" id="br">br</span>
+          <br><br>
+          Этот тег представляет разрыв строки. Это встроенный элемент, и ему не нужен закрывающий тег.
+          <br> <br>
+        </p>
+      </div>
+      <div class="block">
+        <p>
+          <span class="block-text" id="form"> form</span> <br>
+          <br>
+          Тег &lt;form&gt используется для создания HTML-формы для ввода пользователем. <br> <br>
+           Элемент &lt;form&gt может содержать один или несколько следующих элементов формы: 
+          <ol>
+            <li>&lt;input&gt</li>
+            <li>&lt;label&gt</li>
+            <li>&lt;textarea&gt</li>
+            <li>&lt;button&gt</li>
+            <li>&lt;output&gt</li>
+          </ol>
+        </p>
+      </div>
+    </div>
+    <h1>CSS handbook</h1>
+    <div class="container">
+      <div class="block bck">
+        <p class="block-text" id="background-color">background-color</p>
+        <p>
+            Свойство background-color устанавливает цвет фона элемента.
+            Фон элемента — это общий размер элемента,
+            включая отступы и границы (но не поля). <br><br>
+            body {<br>background-color: rgb(1, 255, 1);<br>} 
+        </p>
+        <style>
+        </style>
+      </div>
+      <div class="block">
+        <p class="block-text" id="border">border</p>
+        Если border-color опущен, применяемый цвет будет цветом
+        текст. <br><br> 
+        .example {<br />border: 1px solid black;<br />}
+        <div
+          class="example"
+          style="width: 50px; height: 50px; border: 1px solid black; margin: 5px;"
+        ></div>
+      </div>
+      <div class="block">
+        <p class="block-text" id="padding">padding</p>
+        <p>
+            Отступ элемента — это пространство между его содержимым и
+            его граница. 
+          <br>
+        </p>
+        <ol>
+          <li>padding-top</li>
+          <li>padding-right</li>
+          <li>padding-bottom</li>
+          <li>padding-left</li>
+        </ol>
+        <p>
+          .example {<br>padding: 50px;<br>}
+        </p>
+        <div
+          class="example"
+          style="background-color: rgb(0, 13, 128); padding: 50px;"
+        ></div>
+      </div>
+      <div class="block">
+        <p class="block-text" id="margin">margin</p>
+        <p>
+            Свойство margin устанавливает поля для элемента, а
+            является сокращенным свойством для следующих свойств:
+        </p>
+        <ol>
+          <li>margin-top</li>
+          <li>margin-right</li>
+          <li>margin-bottom</li>
+          <li>margin-left</li>
+        </ol>
+        <p>
+          .example{<br />margin: 50px;<br />}
+        </p>
+        <div
+          class="example"
+          style="background-color: rgb(0, 13, 128); margin: 50px;"
+        >
+          Some content
+        </div>
+      </div>
+    </div>
+    <h1 id="protocols">Protocols</h1>
+    <div class="container">
+      <div class="block">
+        <p class="block-text" id="description">Description</p>
+        <p>
+            Протокол — это набор правил и указаний для передачи данных.
+            Правила определены для каждого шага и процесса во время общения
+            между двумя и более компьютерами. Сети должны следовать этим правилам, чтобы
+            успешно передавать данные. 
+        </p>
+      </div>
+      <div class="block">
+        <p class="block-text" id="https">HTTP/HTTPS</p>
+        <p>
+            Безопасный протокол передачи гипертекста (HTTPS) — это безопасная версия
+            HTTP, который является основным протоколом, используемым для отправки данных между веб-
+            браузер и сайт. HTTPS шифруется для увеличения
+            безопасность передачи данных. Это особенно важно, когда пользователи
+            передавать конфиденциальные данные, например, при входе в банковский счет, электронной почте
+            службы или страховой компании. <br> 
+        </p>
+      </div>
+      <div class="block">
+        <p class="block-text" id="dns">DNS</p>
+        <p>
+            DNS — это глобальная система преобразования IP-адресов в удобочитаемый
+            доменные имена. Когда пользователь пытается получить доступ к веб-адресу, например
+            «example.com», их веб-браузер или приложение выполняет DNS-запрос
+            против DNS-сервера, предоставляя имя хоста. DNS-сервер принимает
+            имя хоста и преобразует его в числовой IP-адрес, который
+            браузер может подключиться. 
+      </div>
+      <div class="block">
+        <p class="block-text" id="ip">IP</p>
+        <p>
+            Адрес интернет-протокола (IP-адрес) — это числовая метка.
+            назначается каждому устройству, подключенному к компьютерной сети, которая использует
+            Интернет-протокол для связи. IP-адрес служит двум основным
+            функции: идентификация хоста или сетевого интерфейса и местоположение
+            адресация. 
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
