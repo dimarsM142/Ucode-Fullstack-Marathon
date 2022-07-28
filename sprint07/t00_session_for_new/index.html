@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Session for new</title>
+      <meta name="description" content="Session for new" charset="utf-8">
+      <style>
+          fieldset{
+              padding: 25px;
+          }
+          input{
+              margin: 10px
+          }
+          #reset {
+            font-size: 22px;
+            border-radius: 10px;
+          }
+          #submit {
+            font-size: 22px;
+            border-radius: 10px;
+          }
+      </style>
+  </head>
+  <body>
+     <h1>Session for new</h1>
+    <form method="POST" action="/login" >
+      <fieldset>
+        <fieldset>
+            <legend>About candidate</legend>
+          <div>
+            <label for="realName">Real Name</label>
+            <input type="text"  id="realName" name="realName" placeholder="Superhero real name" size="18" required/>
+            <label for="curAlias">Current Alias</label>
+            <input type="text" name="curAlias" placeholder="Superhero alias" size="18" id="curAlias"  required/>
+            <label for="ageHero">Age</label>
+            <input type="number"  min="1" max="125" size="5" id="ageHero" name="ageHero" required/>
+            <br>
+            <label for="textAbout">About</label>
+            <textarea name="textAbout" id="textAbout" placeholder="Information about the superhero, max 500 symbols" cols="70" rows="10" maxlength="500" required></textarea>
+          </div>
+          <div>
+              <label>Photo:</label>
+              <input type="file" name="picture" required>
+          </div>
+        </fieldset>
+          <fieldset>
+            <legend>Powers</legend> 
+              <div>
+            <input type="checkbox" name="box_strength">
+            <label>Strength</label>
+            <input type="checkbox" name="box_speed">
+            <label>Speed</label>
+            <input type="checkbox" name="box_intelligence">
+            <label>Intelligence</label>
+            <input type="checkbox" name="box_teleportation">
+            <label>Teleportation</label>
+            <input type="checkbox" name="box_immortal">
+            <label>Immortal</label>
+            <input type="checkbox" name="box_another">
+            <label>Another</label>
+              </div>
+              <div>
+                <label for="control">Level of control:</label>
+                <input type="range" id="control" name="control" step="1" value="0" min="0" max="10" required>
+              </div>
+          </fieldset>
+          <fieldset class="public-box">
+              <legend>Publicity</legend>
+              <input type="radio" name="radio_unknown">
+              <label>UNKKNOWN</label>
+              <input type="radio" name="radio_ghost">
+              <label>LIKE A GHOST</label>
+              <input type="radio" name="radio_comic">
+              <label>I AM IN COMICS</label>
+              <input type="radio" name="radio_fun">
+              <label>I HAVE FUN CLUB</label>
+              <input type="radio" name="radio_superstar">
+              <label>SUPERSTAR</label>
+          </fieldset>
+        </fieldset>
+        <button id="reset" type="reset">clear</button>
+        <button id="submit" type="submit">send</button>
+      
+    </form>
+  </body>
+</html>
+

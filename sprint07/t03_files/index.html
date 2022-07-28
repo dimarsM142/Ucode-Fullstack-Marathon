@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Files" charset="utf-8">
+    <title>t03. Files</title>
+    <style>
+        .row {
+            margin-bottom: 12px;
+            width: 100%;
+        }
+        .container {
+            display: block;
+            border: 1px solid rgb(51, 51, 51);
+            padding: 9px;
+            margin-bottom: 12px;
+        }
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<h1>File Manager</h1>
+<div class="container">
+    <h3>Create a file</h3>
+    <form action="/" method="post">
+        <div class="row">
+            <label>Filename</label>
+            <input type="text" name="filename" required>
+        </div>
+        <div class="row">
+            <label>Content</label>
+            <textarea rows="15" cols="100" name="content" required></textarea>
+        </div>
+        <button type="submit">Create file</button>
+    </form>
+</div>
+<div class="container" id="list">
+
+</div>
+<div class="container" id="content">
+
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

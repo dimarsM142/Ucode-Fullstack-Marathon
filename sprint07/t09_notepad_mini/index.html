@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Who is Who" charset="utf-8">
+    <title>t09. Notepad mini</title>
+    <style>
+        .container {
+            margin-bottom: 12px;
+            width: 100%;
+        }
+        .hide {
+            display: none;
+        }
+        .notepadContainer {
+            display: block;
+            padding: 8px;
+            border: 1px solid grey;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+<h1>Notepad mini</h1>
+<div class="notepadContainer">
+    <form method="POST" action="/" >
+        <div class="container">
+            <input placeholder="Input name" type="text" name="filename" required>
+        </div>
+        <div class="container">
+            <select name="importance">
+                <option selected value="low">low</option>
+                <option value="medium">medium</option>
+                <option value="high">high</option>
+            </select>
+        </div>
+        <div class="container">
+            <label>Content</label>
+            <textarea rows="15" cols="100" name="content" required></textarea>
+        </div>
+        <button type="submit">Create</button>
+    </form>
+</div>
+<div id="list" class="notepadContainer">
+
+</div>
+<div id="content" class="notepadContainer">
+#CONTENT#
+</div>
+<script src="/js/script.js"></script>
+</body>
+</html>

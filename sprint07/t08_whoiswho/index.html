@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="Who is Who" charset="utf-8">
+        <title>t08. WhoIsWho</title>
+        <style>
+            #CSVToSite {
+                margin-top: 10px;
+            }
+            table {
+                border-spacing: initial;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Parsing CSV data</h1>
+        <div>
+            <form action="/"  enctype="multipart/form-data" method="POST">
+                <input type="file" name="file">
+                <button type="submit">Upload csv file</button>
+                <a href="/">Go back</a>
+            </form>
+        <div id="CSVToSite">#TEXT#</div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
