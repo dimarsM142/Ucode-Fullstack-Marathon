@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+}
+
+.container {
+    margin: 0px 30px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    background: #452cb1;
+    color: rgb(255, 255, 255);
+    margin: 0px 700px;
+}
+
+.error-box {
+    padding: 16px;
+    background: #d4abab;
+}
+
+.form-group {
+    padding: 10px 20px;
+}
+
+.form-group label {
+    width: 30%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.message.error {
+    color: rgb(219, 62, 62);
+    font-size: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-color: 1px solid black;
+    border-radius: 20px;
+}
+
+form {
+    border: 4px solid rgb(8, 1, 99);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.home-menu ul {
+    padding-inline-start: 0px;
+    display: flex;
+}
+.home-menu li {
+    margin-left: 25px;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    list-style-type: none;
+    padding: 15px;
+    background-color: rgb(63, 17, 228);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.home-class {
+    display: flex;
+    background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+}

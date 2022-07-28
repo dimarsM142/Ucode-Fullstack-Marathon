@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Password reminder</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+<div class="home-class">
+  <div><h1>MVC Project - Password reminder</h1></div>
+  <div class="home-menu">
+    <ul>
+      <li onclick="window.location.assign('/')">Home</li>
+      <li onclick="window.location.assign('/login')">Login</li>
+      <li onclick="window.location.assign('/register')">Register</li>
+    </ul>
+  </div>
+</div>
+  <div class="container">
+    <div class="box">
+      <form action="/reminder" method="post">
+        <div class="form-group">
+          <label for="email">email: </label>
+          <input type="email" name="email" id="email" placeholder="Input email" required>
+        </div>
+        <div class="form-group">
+          <button type="submit">SEND!</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

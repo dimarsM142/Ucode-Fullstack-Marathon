@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Registration</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Registration form</h1>
+    #TEXT#
+    <div class="box">
+      <form action="/user/create" method="POST">
+       
+        <div class="form-group">
+          <label for="email">Your email </label>
+          <input type="email" placeholder="Please, input your email" name="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="login">Your login </label>
+          <input type="text" placeholder="Please, input login" name="login" id="login" required>
+        </div>
+        <div class="form-group">
+          <label for="name">Your name </label>
+          <input type="text" placeholder="Please, input your name" name="name" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Input password </label>
+          <input type="password" placeholder="Please, input password" name="password" id="password" required minlength="8">
+        </div>
+        <div class="form-group">
+          <label for="confirm">Confirm password </label>
+          <input type="password" placeholder="Please, confirm password" name="confirm" id="confirm" required minlength="8">
+        </div>
+        <div class="form-group">
+          <button type="submit">
+            <span>Confirm data!</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    document.querySelector("button").addEventListener('click', function(element) { validate(element)});
+    function validate(element) {
+      let password = document.querySelector('#password');
+      let confirm = document.querySelector('#confirm');
+      console.log(password.value);
+      if(password.value != confirm.value) {
+        element.preventDefault();
+        confirm.insertAdjacentHTML("afterend", "<div class='message error' id='error'>Passwords does not match</div>");
+        setTimeout(() => {
+          document.querySelector('.error').outerHTML = '';
+        },2500);
+      }
+    }
+  </script>
+</body>
+
+</html>
