@@ -1,0 +1,23 @@
+#settings{
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+}
+
+#entery {
+    width: 100%;   
+    padding-left: 10px;
+    color: green;
+}
+
+#entery:hover {
+    color: red;
+}
+
+#button {
+    color: green;
+}
+
+#button:hover {
+    color: red;
+}
