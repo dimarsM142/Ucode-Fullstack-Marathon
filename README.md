@@ -38,7 +38,7 @@
         </tr>
         <tr>
             <th>Web-Sprint05</th>
-            <th>Server-side programming: the basics of PHP.</th>
+            <th>Server-side programming: the basics of NodeJS.</th>
             <th>23.03.2021</th>
             <th>100</th>
         </tr>
