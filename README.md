@@ -1,17 +1,3 @@
-<head>
-    <p align="center">
-        <a href="https://ucode.world/en/" target="_blank">
-            <img src="https://github.com/PAXANDDOS/PAXANDDOS/blob/main/Images/Header/ucode.png?raw=true" height="100px">
-        </a>
-        <a href="https://unitfactory.net/" target="_blank">
-            <img src="https://github.com/PAXANDDOS/PAXANDDOS/blob/main/Images/Header/unit.png?raw=true" height="100px">
-        </a>
-        <a href="https://lms.ucode.world/users/plitovka/" target="_blank">
-            <img src="https://github.com/PAXANDDOS/PAXANDDOS/blob/main/Images/Header/lms.png?raw=true" height="100px">
-        </a>
-    </p>
-</head>
-
 <body>
     <table width="100%" border="0" cellpadding="4" align="left">  
         <tr>
@@ -27,7 +13,7 @@
             <th>100</th>
         </tr>
         <tr>
-            <th><a href="https://paxanddos.github.io/projects/ucode/pokeshop">Web-Sprint01</a></th>
+            <th>Web-Sprint01</th>
             <th>Get advanced skills in HTML and CSS (hovering, rotation, adaptive layouts, drop-down menus, filtering, etc.)</th>
             <th>07.03.2021</th>
             <th>100</th>
@@ -36,7 +22,7 @@
             <th>Web-Sprint02</th>
             <th>Introduction to JavaScript. Basic functions (alert, prompt, console.log, etc.).</th>
             <th>09.03.2021</th>
-            <th>99</th>
+            <th>100</th>
         </tr>
         <tr>
             <th>Web-Sprint03</th>
@@ -45,7 +31,7 @@
             <th>100</th>
         </tr>
         <tr>
-            <th><a href="https://paxanddos.github.io/projects/ucode/weatherapp">Web-Sprint04</a></th>
+            <th>Web-Sprint04</th>
             <th>Third-party API. DOM for accessing the HTML.</th>
             <th>17.03.2021</th>
             <th>100</th>
@@ -81,32 +67,10 @@
             <th>100</th>
         </tr>
         <tr>
-            <th><a href="https://paxanddos.github.io/projects/ucode/calculator">Web-Race00</a></th>
+            <th>Web-Race00</th>
             <th>Simple Calculator using actual standards of programming (HTML, CSS, and JavaScript).</th>
             <th>21.03.2021</th>
             <th>140</th>
         </tr>
-        <tr>
-            <th><a href="https://github.com/PAXANDDOS/Heroes-of-the-Earth-199999">Web-Race01</a></th>
-            <th>Card Game in battle variation.</th>
-            <th>15.04.2021</th>
-            <th>130</th>
-        </tr>
-        <tr>
-            <th><a href="https://github.com/PAXANDDOS/orbimind-api">USOF-Backend</a></th>
-            <th>RESTful API for a question and answer service forprofessional and enthusiast programmers - usof.</th>
-            <th>12.05.2021</th>
-            <th>140</th>
-        </tr>
-        <tr>
-            <th><a href="https://github.com/PAXANDDOS/orbimind-react">USOF-Frontend</a></th>
-            <th>Web app based on USOF-Backend.</th>
-            <th>08.06.2021</th>
-            <th>140</th>
-        </tr>
     </table>
 </body>
-
-<footer>
-<p align="center"><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"></p>
-</footer>
